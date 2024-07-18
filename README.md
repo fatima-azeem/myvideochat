@@ -2,7 +2,7 @@
 This project is a video calling application built using Django as the backend framework and the Agora Web SDK for real-time video communication. The app enables users to make one-on-one video calls and engage in real-time communication.
 
 
-##Features
+## Features
 - One-on-one video calling
 - Real-time video and audio communication
 - User authentication and authorization using Django's built-in auth system
@@ -10,14 +10,14 @@ This project is a video calling application built using Django as the backend fr
 - Integration with Agora Web SDK for video calling functionality
 
   
-##Technical Requirements
+## Technical Requirements
 - Django 4.1+
 - Python 3.8+
 - Agora Web SDK 4.3+
 - WebRTC compatible browser (Google Chrome, Mozilla Firefox, etc.)
 
   
-##Setup and Installation
+## Setup and Installation
 1. Clone the repository:
  ```python
 git clone https://github.com/fatima-azeem/myvideochat
@@ -33,7 +33,7 @@ git clone https://github.com/fatima-azeem/myvideochat
 ```
 
 
-##Agora Web SDK Integration
+## Agora Web SDK Integration
 
 The Agora Web SDK is integrated into the Django app using the following steps:
 
@@ -42,7 +42,7 @@ The Agora Web SDK is integrated into the Django app using the following steps:
 3. Use the Agora API to join and leave video calls
 
 
-##Django Backend
+## Django Backend
 
 The Django backend handles user authentication, authorization, and token generation for video calls. The backend also provides RESTful APIs for:
 
